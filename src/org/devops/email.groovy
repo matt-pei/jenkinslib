@@ -1,6 +1,6 @@
 package org.devops
 
-//定义邮件内容
+// 定义邮件内容
 def Email(status,emailUser){
     emailext body: """
             <!DOCTYPE html> 
@@ -13,7 +13,7 @@ def Email(status,emailUser){
                 <table width="95%" cellpadding="0" cellspacing="0" style="font-size: 11pt; font-family: Tahoma, Arial, Helvetica, sans-serif">   
                     <tr> 
                         <td><br /> 
-                            <b><font color="#0B610B">构建信息</font></b> 
+                            <b><font color="#0B610B">Jenkins构建信息</font></b> 
                         </td> 
                     </tr> 
                     <tr> 
